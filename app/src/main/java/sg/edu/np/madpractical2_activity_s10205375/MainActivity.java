@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         user1 = new User();
 
         TextView name = findViewById(R.id.name);
-        user1.name = "John Lim";
+        user1.name = "MAD";
         name.setText(user1.getName());
 
         TextView desc = findViewById((R.id.desc));
-        user1.description = "Hi i am John Lim, 25 years old and I live in Singapore.";
+        user1.description = "Loren ipsum dolor sit amet consectetur\n adipiscing elit sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua";
         desc.setText(user1.getDesc());
     }
 
