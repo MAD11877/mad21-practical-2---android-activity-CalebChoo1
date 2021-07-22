@@ -1,6 +1,5 @@
 package sg.edu.np.madpractical2_activity_s10205375;
 
-import android.media.audiofx.AudioEffect;
 
 public class User {
     String name;
